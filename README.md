@@ -1,18 +1,11 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Install JDK8 using the package attached and make sure that the path variable is set correctly. Test this by typing `java -version` into your terminal. It should respond with something like `java version "1.8.0_202"
+Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)`
 
-## Folder Structure
+Drag the entire folder into VSCode and click run on the top right corner. The first run will take some time to compile the project, but subsequent runs will be faster to initialize.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+If you encounter an error, please read the error message and determine its source.
+# Common Errors
+1. Python script isn't working - this is likely due to an issue with the way the python command is invoked on your system. Check this by typing `python --version` in your terminal. If this doesn't work, test it with other invokations like `python3`, `py`, or `py3`. Then replace the string in KalmanTrackerRunner.java from `python` to whichever invokation gave you a response in the line `ProcessBuilder pb = new ProcessBuilder("python", "src\\Track-Spot_Merger_Auto.py", "--csvlist", csvArgumentString);`.
