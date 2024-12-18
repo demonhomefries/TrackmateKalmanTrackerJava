@@ -1,6 +1,6 @@
 ## Getting Started
 
-Install JDK8 and make sure that the path variable is set correctly. Test this by typing `java -version` into your terminal. It should respond with something like 
+Install [JDK8](https://alstherapydevelopmentinstitute.box.com/s/rski5xqwfbq1ae0v728cs9y7pj58cbyy) and make sure that the path variable is set correctly. Test this by typing `java -version` into your terminal. It should respond with something like 
 ```
 java version "1.8.0_202"
 Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
