@@ -1,8 +1,8 @@
 ## Getting Started
 
-Install JDK8 using the package attached and make sure that the path variable is set correctly. Test this by typing `java -version` into your terminal. It should respond with something like `java version "1.8.0_202"
+Install JDK8 using the package attached and make sure that the path variable is set correctly. Test this by typing `java -version` into your terminal. It should respond with something like ```java version "1.8.0_202"
 Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
-Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)`
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)```
 
 Drag the entire folder into VSCode and click run on the top right corner. The first run will take some time to compile the project, but subsequent runs will be faster to initialize.
 
